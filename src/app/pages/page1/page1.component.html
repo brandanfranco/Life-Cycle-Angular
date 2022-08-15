@@ -1,0 +1,10 @@
+<p>{{ name }}</p>
+
+<p>{{ counting }}</p>
+
+<input placeholder="name" [(ngModel)]="name" />
+
+<button type="button" (click)="save()">Click</button>
+
+<br />
+<app-show-name [name]="name"></app-show-name>
